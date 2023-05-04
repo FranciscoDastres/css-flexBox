@@ -1,0 +1,94 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    background-color: #E8EBE4;
+}
+
+.seccion-contactos {
+    min-height: 100vh;
+    width: 20%;
+    background-color: #FFF;
+}
+
+.user-main {
+    display: flex;
+    border: 0.6px silver solid;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+#foto-main {
+    border-radius: 50%;
+    width: 5em;
+    height: 5em;
+}
+
+.nombre {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.estado {
+    color: #828485;
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+}
+
+.iconos {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    border-bottom: 0.6px silver solid;
+}
+
+.color-boton {
+    background-color: #905aa1;
+    padding: 1em 3em 1em 3em;
+    border: none;
+    text-decoration: none;
+    font-size: 1em;
+    color: white;
+    cursor: pointer;
+}
+
+.lista-chat {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 0.6px silver solid;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-chat {
+    border-radius: 50%;
+    width: 5em;
+    height: 5em;
+}
+
+.seccion-principal {
+    width: 80%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#logo-main{
+    border-radius: 50%;
+    width: 25em;
+    height: 25em;
+}
